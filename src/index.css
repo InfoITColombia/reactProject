@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -16,4 +17,14 @@ code {
   text-align: center;
   font-size: 40px;
   padding-top: 50px;
+}
+
+.formLogin{
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.formLogin .button {
+  padding-left: 92%;
 }
