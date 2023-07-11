@@ -1,11 +1,15 @@
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 
+
+
 export function Login(){
 
     return (
-    
-        <div>
+
+          
+        <div> 
+
 
             <h1 className="titulo1">TOUCH CENTER</h1>
 

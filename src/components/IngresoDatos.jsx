@@ -7,12 +7,12 @@ export function IngresoDatos(){
     
         <div>
 
-            <img src="./img/LOGOTOUCH.jpg" alt="" />
+            <img src="./img/LOGOTOUCH.jpg" alt="" /> 
 
             <h1 className="titulo1">Ventas</h1>
 
             <Form className='formLogin'>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-3 date-vent" controlId="exampleForm.ControlInput1">
                 <Form.Control type="text" placeholder="Fecha" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
