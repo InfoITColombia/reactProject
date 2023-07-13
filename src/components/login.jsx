@@ -1,5 +1,6 @@
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
+import logo from '../img/logotouch.png';
 
 
 
@@ -10,8 +11,8 @@ export function Login(){
           
         <div> 
 
-
-            <h1 className="titulo1">TOUCH CENTER</h1>
+            <img className='logo' src={logo} alt="Logo" />
+            
 
             <Form className='formLogin'>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
