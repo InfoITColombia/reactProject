@@ -1,11 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'; 
 import './index.css';
-import { Login } from './login';
+import './styles/login.css';
+import { App } from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-ReactDOM.render(<Login/>,
+ReactDOM.render(<App/>,
   document.getElementById("root")
 );
 
