@@ -4,7 +4,10 @@ import Axios from 'axios'
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 
-
+<<<<<<< HEAD:src/login.jsx
+import List from './List';
+=======
+>>>>>>> origin/frontend:src/components/login.jsx
 
 
 export function Login(){

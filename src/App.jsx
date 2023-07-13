@@ -3,7 +3,7 @@ import { IngresoDatos } from "./components/IngresoDatos";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-export function App(){
+export default function App(){
     return (
        
             <BrowserRouter>
