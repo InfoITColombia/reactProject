@@ -29,7 +29,7 @@ export function IngresoDatos(){
                 <Form.Control type="text" placeholder="Articulo"/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="ControlInput1">
-                <Form.Control type="number" placeholder="Valor"/>
+                <Form.Control type="number" placeholder="Precio"/>
                 </Form.Group>
                 <div className='button'>
                 <Button variant='primary'>Ingresar</Button>
