@@ -40,17 +40,20 @@ export function Login() {
   const login = () => {
     console.log(username)
     console.log(password)
-    Axios.post("http://localhost:3002/login", {
+    Axios.post("http://localhost:3002/touchapp/usuarios/login", {
       N_USUARIO: username,
       PWD_USUARIO: password,
     }).then((response) => {
-      if (response.data.message) {
+        
+        console.log(response.data)
+
+      if (response.data.status === false) {
         //Variable que se carga al html
         //setLoginStatus(response.data.message)
         const MySwal = withReactContent(Swal)
 
         MySwal.fire({
-          title: <strong>Credenciales incorrectas</strong>,
+          title: <strong>{response.data.message}</strong>,
           html: <i>{response.data.message}</i>,
           icon: 'error'
         })
