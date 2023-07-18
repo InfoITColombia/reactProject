@@ -1,3 +1,23 @@
-.date-vent{
-    background-color: blueviolet;
+.logo{
+    width: 350px;
+    height: 100px;
+    margin-left: 40%;
+    padding-top: 30px;
+}
+
+.logo-ventas{
+    width: 300px;
+    height: 80px;
+    margin-left: 3%;
+    padding-top: 30px;
+}
+
+.formVentas{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.formLogin{
+    margin-left: 30%;
+    margin-right: 30%;
 }

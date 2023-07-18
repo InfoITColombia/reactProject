@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import logo from '../img/logotouch.png';
 
 
 
@@ -35,6 +36,8 @@ export function Login() {
       console.log(response)
     });
   }
+  <img className='logo' src={logo} alt="Logo" />
+
 
 
   const login = () => {
@@ -44,8 +47,8 @@ export function Login() {
       N_USUARIO: username,
       PWD_USUARIO: password,
     }).then((response) => {
-        
-        console.log(response.data)
+
+      console.log(response.data)
 
       if (response.data.status === false) {
         //Variable que se carga al html
@@ -60,11 +63,11 @@ export function Login() {
       }
       else {
         console.log("LOGIN EXITOSO")
-        
+
         //direccionamiento a ventas
         navigateVentas()
       }
-      
+
     });
   }
 
@@ -75,7 +78,9 @@ export function Login() {
     <div>
 
 
-      <h1 className="titulo1">TOUCH CENTER</h1>
+
+      <img className='logo' src={logo} alt="Logo" />
+
 
       <Form className='formLogin'>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
