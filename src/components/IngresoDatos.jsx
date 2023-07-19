@@ -9,7 +9,7 @@ export function IngresoDatos(){
     return (
     
         <div>
-
+            
             
             <img className='logo-ventas' src={logo} alt="Logo" />
 

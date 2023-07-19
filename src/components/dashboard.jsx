@@ -1,5 +1,6 @@
 import Table from 'react-bootstrap/Table';
 import { Button } from 'react-bootstrap';
+import logo from '../img/logotouch.png';
 
 
 export function DashBoard () {
@@ -9,7 +10,7 @@ export function DashBoard () {
 
     <div>
 
-      
+      <img className='logo-ventas' src={logo} alt="Logo" />
 
       <h1 className='titulo-1'>Reporte de Ventas</h1>
 
