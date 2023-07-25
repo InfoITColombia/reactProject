@@ -1,6 +1,12 @@
+.section1 {
+    background: linear-gradient(0deg, rgba(76,76,76,1) 15%, rgba(94,94,94,1) 61%);
+    height: 720px;
+}
+
 .titulo-1{
     text-align: center;
     padding-top: 3em;
+    color: white;
 }
 
 .table1{
