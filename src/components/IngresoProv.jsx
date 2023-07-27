@@ -1,4 +1,5 @@
 import Table from 'react-bootstrap/Table';
+import Form from 'react-bootstrap/Form';
 import React, { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import logo from '../img/logotouch.png';
@@ -23,6 +24,31 @@ export function IngresoProv () {
       <img className='logo-ventas' src={logo} alt="Logo" />
 
       <h1 className='titulo-1'>Ingreso Proveedores</h1>
+
+      <section className='ingreso-prov'>
+
+        <Form className='form1-prov'>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Control type="text" placeholder="Nombre Empresa" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Control type="number" placeholder="Nit" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Control type="email" placeholder="Email" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Control type="text" placeholder="Dirección" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Control type="number" placeholder="Telefono" />
+          </Form.Group>
+          <div className='button'>
+                <Button variant='primary'>Ingresar</Button>
+                </div>
+          
+        </Form>
+      </section>
 
       <section className='table1'>
 
