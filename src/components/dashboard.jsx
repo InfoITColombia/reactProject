@@ -10,7 +10,11 @@ export function DashBoard () {
 
     <div>
 
+
+
       <img className='logo-ventas' src={logo} alt="Logo" />
+
+      <section className='section1'>
 
       <h1 className='titulo-1'>Reporte de Ventas</h1>
 
@@ -26,6 +30,7 @@ export function DashBoard () {
           <th>Articulo</th>
           <th>Proveedor</th>
           <th>Precio</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -78,6 +83,7 @@ export function DashBoard () {
       </tbody>
       
     </Table>
+    </section>
     </section>
     </div>
   );
