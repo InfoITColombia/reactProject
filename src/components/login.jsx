@@ -3,7 +3,7 @@ import Axios from 'axios'
 
 import { Button } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 import logo from '../img/logotouch.png';
@@ -13,13 +13,13 @@ import logo from '../img/logotouch.png';
 
 export function Login() {
 
-  const [usernameReg, setUsernameReg] = useState("")
-  const [passwordReg, setPasswordReg] = useState("")
+  const [usernameReg, ] = useState("")
+  const [passwordReg, ] = useState("")
 
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
 
-  const [loginStaus, setLoginStatus] = useState("");
+  const [loginStaus, ] = useState("");
 
   const navigate = useNavigate();
   const navigateVentas = () => {
@@ -27,7 +27,7 @@ export function Login() {
     navigate('/ventas');
   };
 
-
+/*
   const register = () => {
     Axios.post("http://localhost:3002/register", {
       N_USUARIO: usernameReg,
@@ -36,6 +36,7 @@ export function Login() {
       console.log(response)
     });
   }
+  */
   <img className='logo' src={logo} alt="Logo" />
 
 

@@ -17,6 +17,7 @@
     "sweetalert2-react-content": "^5.0.7",
     "web-vitals": "^2.1.4"
   },
+  "homepage" : "http://151.106/109/171",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
