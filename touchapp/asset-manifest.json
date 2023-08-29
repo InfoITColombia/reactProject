@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/touchapp/static/css/main.7f02a36c.css",
+    "main.js": "/touchapp/static/js/main.2c01957a.js",
+    "static/media/logotouch.png": "/touchapp/static/media/logotouch.50b828d1cecca562ce9b.png",
+    "index.html": "/touchapp/index.html",
+    "main.7f02a36c.css.map": "/touchapp/static/css/main.7f02a36c.css.map",
+    "main.2c01957a.js.map": "/touchapp/static/js/main.2c01957a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f02a36c.css",
+    "static/js/main.2c01957a.js"
+  ]
+}
